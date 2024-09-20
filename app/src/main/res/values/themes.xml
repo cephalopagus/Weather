@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Weather" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+
+        <!--Colors-->
+        <item name="android:background">#8ab688</item>
+        <item name="colorPrimary">#effdde</item>
+        <item name="colorPrimaryVariant">#DFFDDE</item>
+        <item name="colorOnPrimary">#000</item>
+
+
+        <item name="colorSecondary">#effdde</item>
+        <item name="colorSecondaryVariant">#DFFDDE</item>
+        <item name="colorOnSecondary">#000</item>
+    </style>
+
+    <style name="Theme.Weather" parent="Base.Theme.Weather" />
+</resources>
